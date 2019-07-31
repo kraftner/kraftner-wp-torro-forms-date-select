@@ -169,6 +169,10 @@ class Date_Weekday extends Dropdown {
 		return $choices;
 	}
 
+	public function get_choices_for_field( $element, $field = '' ) {
+		return array_keys($this->get_choices($element)['_main']);
+	}
+
 	protected function show_day(array $settings, DateTime $date){
 
 		$weekday = $date->format('N');
