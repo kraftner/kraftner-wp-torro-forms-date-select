@@ -1,7 +1,7 @@
 {
   "name": "kraftner/kraftner-wp-torro-forms-date-select",
   "description": "Plugin for Torro Forms that adds a date field made from selects.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "GPL-2.0-or-later",
   "type": "wordpress-plugin",
   "keywords": [

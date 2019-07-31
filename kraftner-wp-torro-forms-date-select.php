@@ -9,7 +9,7 @@
  * Plugin Name: Kraftner WP Torro Forms Date Select
  * Plugin URI:  https://kraftner.com
  * Description: Plugin for Torro Forms that adds a date field made from selects.
- * Version:     0.0.1
+ * Version:     0.0.2
  * Author:      Thomas Kräftner
  * Author URI:  https://kraftner.com
  * License:     GNU General Public License v2 (or later)
