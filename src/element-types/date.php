@@ -161,7 +161,7 @@ class Date extends Element_Type {
 	 */
 	protected function bootstrap() {
 		$this->slug        = 'date';
-		$this->title       = __( 'Date', 'kraftner-wp-torro-forms-date-select' );
+		$this->title       = __( 'Date Dropdown', 'kraftner-wp-torro-forms-date-select' );
 		$this->description = __( 'A dropdown-based date field element.', 'kraftner-wp-torro-forms-date-select' );
 		$this->icon_svg_id = 'torro-icon-textfield';
 

@@ -10,6 +10,7 @@ namespace Kraftner\KraftnerWpTorroFormsDateSelect;
 
 use Kraftner\KraftnerWpTorroFormsDateSelect\Element_Types\Date;
 use awsmug\Torro_Forms\Components\Extension as Extension_Base;
+use Kraftner\KraftnerWpTorroFormsDateSelect\Element_Types\Date_Weekday;
 use Leaves_And_Love\Plugin_Lib\Assets;
 use WP_Error;
 
@@ -74,7 +75,7 @@ class Extension extends Extension_Base {
 			'url_callback'   => array( $this, 'url' ),
 			'plugin_version' => $this->version,
 		) );
-		
+
 		$this->parent_plugin->template()->register_location( 'kraftner-wp-torro-forms-date-select', $this->path( 'templates/' ) );
 	}
 
@@ -89,6 +90,7 @@ class Extension extends Extension_Base {
 	 */
 	protected function register_date_element_type( $element_type_manager ) {
 		$element_type_manager->register( 'date', Date::class );
+		$element_type_manager->register( 'date-weekday', Date_Weekday::class );
 	}
 
 	/**
