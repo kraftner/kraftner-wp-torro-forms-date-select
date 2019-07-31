@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+
+  gulp:
+    image: node:11
+    user: 1000:1000
+    working_dir: /usr/var/app
+    volumes:
+      - ./:/usr/var/app/
+    command: ./node_modules/.bin/gulp watch
