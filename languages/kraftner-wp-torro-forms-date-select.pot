@@ -1,0 +1,66 @@
+# Copyright (C) 2019 kraftner-wp-torro-forms-date-select
+# This file is distributed under the same license as the kraftner-wp-torro-forms-date-select package.
+msgid ""
+msgstr ""
+"Project-Id-Version: kraftner-wp-torro-forms-date-select\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Kraftner WP Torro Forms Date Select 0.0.1\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"report-msgid-bugs-to: https://translate.wordpress.org/projects/wp-plugins/torro-forms\n"
+"x-generator: gulp-wp-pot\n"
+"x-poedit-basepath: .\n"
+"x-poedit-bookmars: \n"
+"x-poedit-country: UNITED STATES\n"
+"x-poedit-keywordslist: __;_e;_x:1,2c;_ex:1,2c;_n:1,2; _nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__; esc_html__;esc_attr_e; esc_html_e;esc_attr_x:1,2c; esc_html_x:1,2c;\n"
+"x-poedit-language: English\n"
+"x-poedit-searchpath-0: .\n"
+"x-poedit-sourcecharset: uft-8\n"
+"x-textdomain-support: yes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/element-types/date.php:54
+msgid "Year"
+msgstr ""
+
+#: src/element-types/date.php:55
+msgid "Month"
+msgstr ""
+
+#: src/element-types/date.php:56
+msgid "Day"
+msgstr ""
+
+#: src/element-types/date.php:110
+msgid "You must enter something here."
+msgstr ""
+
+#: src/element-types/date.php:114
+msgid "The value for the month must be between 1 and 12."
+msgstr ""
+
+#: src/element-types/date.php:118
+msgid "The value for the day must be between 1 and 31."
+msgstr ""
+
+#. translators: 1: minimum year, 2: maximum year
+#: src/element-types/date.php:126
+msgid "The value for the year must be between %1$s and %2$s."
+msgstr ""
+
+#: src/element-types/date.php:158
+msgid "Date"
+msgstr ""
+
+#: src/element-types/date.php:159
+msgid "A dropdown-based date field element."
+msgstr ""
+
+#: src/element-types/date.php:167
+msgid "Minimum year"
+msgstr ""
+
+#: src/element-types/date.php:176
+msgid "Maximum year"
+msgstr ""
