@@ -55,7 +55,7 @@ msgstr "Montage anzeigen"
 #: src/element-types/date-weekday.php:97,
 #: src/element-types/date-weekday.php:107,
 #: src/element-types/date-weekday.php:117,
-#: src/element-types/date-weekday.php:127
+#: src/element-types/date-weekday.php:127, src/element-types/date.php:201
 msgid "Yes"
 msgstr "Ja"
 
@@ -65,7 +65,7 @@ msgstr "Ja"
 #: src/element-types/date-weekday.php:98,
 #: src/element-types/date-weekday.php:108,
 #: src/element-types/date-weekday.php:118,
-#: src/element-types/date-weekday.php:128
+#: src/element-types/date-weekday.php:128, src/element-types/date.php:202
 msgid "No"
 msgstr "Nein"
 
@@ -105,38 +105,42 @@ msgstr "Monat"
 msgid "Day"
 msgstr "Jahr"
 
-#: src/element-types/date.php:110
+#: src/element-types/date.php:118
 msgid "You must enter something here."
 msgstr "Du musst hier etwas eingeben."
 
-#: src/element-types/date.php:114
+#: src/element-types/date.php:122
 msgid "The value for the month must be between 1 and 12."
 msgstr "Der Wert für das Monat muss zwischen 1 und 12 liegen."
 
-#: src/element-types/date.php:118
+#: src/element-types/date.php:126
 msgid "The value for the day must be between 1 and 31."
 msgstr "Der Wert für den Tag muss zwischen 1 und 31  liegen."
 
 #. translators: 1: minimum year, 2: maximum year
-#: src/element-types/date.php:132
+#: src/element-types/date.php:140
 msgid "The value for the year must be between %1$s and %2$s."
 msgstr "Der Wert für das Jahr muss zwischen %1$s und %2$s liegen."
 
-#: src/element-types/date.php:164
+#: src/element-types/date.php:172
 msgid "Date Dropdown"
 msgstr "Datums Dropdown"
 
-#: src/element-types/date.php:165
+#: src/element-types/date.php:173
 msgid "A dropdown-based date field element."
 msgstr "Ein Dropdown-basiertes Datumsfeld."
 
-#: src/element-types/date.php:173
+#: src/element-types/date.php:181
 msgid "Minimum year"
 msgstr "Minimum Jahr"
 
-#: src/element-types/date.php:182
+#: src/element-types/date.php:190
 msgid "Maximum year"
 msgstr "Maximum Jahr"
+
+#: src/element-types/date.php:199
+msgid "Default to today?"
+msgstr "Heute als Standardauswahl?"
 
 #~ msgid "Date"
 #~ msgstr "Datum"

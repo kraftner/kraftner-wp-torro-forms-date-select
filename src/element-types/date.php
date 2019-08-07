@@ -66,6 +66,14 @@ class Date extends Element_Type {
 			list( $data['date_values']['year'], $data['date_values']['month'], $data['date_values']['day'] ) = explode( '-', $data['value'], 3 );
 
 			$data['date_values']['month'] = zeroise( $data['date_values']['month'], 2 );
+		}else if( $settings['default_today'] === 'yes'){
+
+			$data['date_values'] = array(
+				'year'  => current_time( 'Y' ),
+				'month' => current_time( 'm' ),
+				'day'   => current_time( 'j' ),
+			);
+
 		}
 
 		$data['legend_attrs'] = $data['label_attrs'];
@@ -184,6 +192,16 @@ class Date extends Element_Type {
 			'default'       => current_time( 'Y' ),
 			'min'           => 1,
 			'step'          => 1,
+		);
+		$this->settings_fields['default_today'] = array(
+			'section'       => 'settings',
+			'type'          => 'radio',
+			'label'         => __( 'Default to today?', 'kraftner-wp-torro-forms-date-select' ),
+			'choices'     => [
+				'yes' => __( 'Yes', 'kraftner-wp-torro-forms-date-select' ),
+				'no'  => __( 'No', 'kraftner-wp-torro-forms-date-select' ),
+			],
+			'default'     => 'no',
 		);
 		$this->add_css_classes_settings_field();
 	}

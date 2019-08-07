@@ -36,11 +36,11 @@ msgstr ""
 msgid "Show Mondays"
 msgstr ""
 
-#: src/element-types/date-weekday.php:67, src/element-types/date-weekday.php:77, src/element-types/date-weekday.php:87, src/element-types/date-weekday.php:97, src/element-types/date-weekday.php:107, src/element-types/date-weekday.php:117, src/element-types/date-weekday.php:127
+#: src/element-types/date-weekday.php:67, src/element-types/date-weekday.php:77, src/element-types/date-weekday.php:87, src/element-types/date-weekday.php:97, src/element-types/date-weekday.php:107, src/element-types/date-weekday.php:117, src/element-types/date-weekday.php:127, src/element-types/date.php:201
 msgid "Yes"
 msgstr ""
 
-#: src/element-types/date-weekday.php:68, src/element-types/date-weekday.php:78, src/element-types/date-weekday.php:88, src/element-types/date-weekday.php:98, src/element-types/date-weekday.php:108, src/element-types/date-weekday.php:118, src/element-types/date-weekday.php:128
+#: src/element-types/date-weekday.php:68, src/element-types/date-weekday.php:78, src/element-types/date-weekday.php:88, src/element-types/date-weekday.php:98, src/element-types/date-weekday.php:108, src/element-types/date-weekday.php:118, src/element-types/date-weekday.php:128, src/element-types/date.php:202
 msgid "No"
 msgstr ""
 
@@ -80,35 +80,39 @@ msgstr ""
 msgid "Day"
 msgstr ""
 
-#: src/element-types/date.php:110
+#: src/element-types/date.php:118
 msgid "You must enter something here."
 msgstr ""
 
-#: src/element-types/date.php:114
+#: src/element-types/date.php:122
 msgid "The value for the month must be between 1 and 12."
 msgstr ""
 
-#: src/element-types/date.php:118
+#: src/element-types/date.php:126
 msgid "The value for the day must be between 1 and 31."
 msgstr ""
 
 #. translators: 1: minimum year, 2: maximum year
-#: src/element-types/date.php:132
+#: src/element-types/date.php:140
 msgid "The value for the year must be between %1$s and %2$s."
 msgstr ""
 
-#: src/element-types/date.php:164
+#: src/element-types/date.php:172
 msgid "Date Dropdown"
 msgstr ""
 
-#: src/element-types/date.php:165
+#: src/element-types/date.php:173
 msgid "A dropdown-based date field element."
 msgstr ""
 
-#: src/element-types/date.php:173
+#: src/element-types/date.php:181
 msgid "Minimum year"
 msgstr ""
 
-#: src/element-types/date.php:182
+#: src/element-types/date.php:190
 msgid "Maximum year"
+msgstr ""
+
+#: src/element-types/date.php:199
+msgid "Default to today?"
 msgstr ""
