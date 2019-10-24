@@ -66,7 +66,7 @@ class Date extends Element_Type {
 			list( $data['date_values']['year'], $data['date_values']['month'], $data['date_values']['day'] ) = explode( '-', $data['value'], 3 );
 
 			$data['date_values']['month'] = zeroise( $data['date_values']['month'], 2 );
-		}else if( $settings['default_today'] === 'yes'){
+		}else if( !empty($settings['default_today']) && $settings['default_today'] === 'yes'){
 
 			$data['date_values'] = array(
 				'year'  => current_time( 'Y' ),
