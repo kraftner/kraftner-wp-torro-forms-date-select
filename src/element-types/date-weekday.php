@@ -51,10 +51,18 @@ class Date_Weekday extends Dropdown {
 
 		$this->add_description_settings_field();
 		$this->add_required_settings_field();
+		$this->settings_fields['min_days_from_now'] = array(
+			'section'       => 'settings',
+			'type'          => 'number',
+			'label'         => __( 'Minimal Number of Days in the future', 'kraftner-wp-torro-forms-date-select' ),
+			'default'       => 1,
+			'min'			=> 1,
+			'max'			=> 499
+		);
 		$this->settings_fields['max_days_from_now'] = array(
 			'section'       => 'settings',
 			'type'          => 'number',
-			'label'         => __( 'Number of Days in the future', 'kraftner-wp-torro-forms-date-select' ),
+			'label'         => __( 'Maximal Number of Days in the future', 'kraftner-wp-torro-forms-date-select' ),
 			'default'       => 100,
 			'min'			=> 1,
 			'max'			=> 500
@@ -147,12 +155,16 @@ class Date_Weekday extends Dropdown {
 
 		$date_format = get_option( 'date_format' );
 
+		if(array_key_exists('min_days_from_now', $settings)){
+			$min_days_from_now = min((int) $settings['min_days_from_now'], 499);
+		}else{
+			$min_days_from_now = 1;
+		}
 		$max_days_from_now = min((int) $settings['max_days_from_now'], 500);
 
 		$cutOffDate = new DateTime('+' . $max_days_from_now . ' days');
 		$date = new DateTime();
-		//The start date is tomorrow.
-		$date->modify('+1 day');
+		$date->modify('+' . $min_days_from_now . ' day');
 
 		$choices = [
 			'_main' =>  []

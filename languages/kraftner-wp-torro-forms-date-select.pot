@@ -1,4 +1,4 @@
-# Copyright (C) 2019 kraftner-wp-torro-forms-date-select
+# Copyright (C) 2020 kraftner-wp-torro-forms-date-select
 # This file is distributed under the same license as the kraftner-wp-torro-forms-date-select package.
 msgid ""
 msgstr ""
@@ -29,42 +29,46 @@ msgid "A dropdown listing all days for selected weekdays X days into the future.
 msgstr ""
 
 #: src/element-types/date-weekday.php:57
-msgid "Number of Days in the future"
+msgid "Minimal Number of Days in the future"
 msgstr ""
 
 #: src/element-types/date-weekday.php:65
+msgid "Maximal Number of Days in the future"
+msgstr ""
+
+#: src/element-types/date-weekday.php:73
 msgid "Show Mondays"
 msgstr ""
 
-#: src/element-types/date-weekday.php:67, src/element-types/date-weekday.php:77, src/element-types/date-weekday.php:87, src/element-types/date-weekday.php:97, src/element-types/date-weekday.php:107, src/element-types/date-weekday.php:117, src/element-types/date-weekday.php:127, src/element-types/date.php:201
+#: src/element-types/date-weekday.php:75, src/element-types/date-weekday.php:85, src/element-types/date-weekday.php:95, src/element-types/date-weekday.php:105, src/element-types/date-weekday.php:115, src/element-types/date-weekday.php:125, src/element-types/date-weekday.php:135, src/element-types/date.php:201
 msgid "Yes"
 msgstr ""
 
-#: src/element-types/date-weekday.php:68, src/element-types/date-weekday.php:78, src/element-types/date-weekday.php:88, src/element-types/date-weekday.php:98, src/element-types/date-weekday.php:108, src/element-types/date-weekday.php:118, src/element-types/date-weekday.php:128, src/element-types/date.php:202
+#: src/element-types/date-weekday.php:76, src/element-types/date-weekday.php:86, src/element-types/date-weekday.php:96, src/element-types/date-weekday.php:106, src/element-types/date-weekday.php:116, src/element-types/date-weekday.php:126, src/element-types/date-weekday.php:136, src/element-types/date.php:202
 msgid "No"
 msgstr ""
 
-#: src/element-types/date-weekday.php:75
+#: src/element-types/date-weekday.php:83
 msgid "Show Tuesdays"
 msgstr ""
 
-#: src/element-types/date-weekday.php:85
+#: src/element-types/date-weekday.php:93
 msgid "Show Wednesdays"
 msgstr ""
 
-#: src/element-types/date-weekday.php:95
+#: src/element-types/date-weekday.php:103
 msgid "Show Thursdays"
 msgstr ""
 
-#: src/element-types/date-weekday.php:105
+#: src/element-types/date-weekday.php:113
 msgid "Show Fridays"
 msgstr ""
 
-#: src/element-types/date-weekday.php:115
+#: src/element-types/date-weekday.php:123
 msgid "Show Saturdays"
 msgstr ""
 
-#: src/element-types/date-weekday.php:125
+#: src/element-types/date-weekday.php:133
 msgid "Show Sundays"
 msgstr ""
 
