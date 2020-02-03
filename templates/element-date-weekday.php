@@ -35,7 +35,7 @@
 
 			<?php foreach ( $choices as $choice_value => $choice_label ) : ?>
 				<?php $weekday = date_i18n('N', (new DateTime($choice_value))->getTimestamp()); ?>
-				<option class="js-weekday-<?php echo torro()->template()->esc_attr( $weekday ); ?>" value="<?php echo torro()->template()->esc_attr( $choice_value ); ?>"<?php echo (int) $value === (int) $choice_value ? ' selected' : ''; ?>>
+				<option class="js-weekday-<?php echo torro()->template()->esc_attr( $weekday ); ?>" value="<?php echo torro()->template()->esc_attr( $choice_value ); ?>"<?php echo $value === $choice_value ? ' selected' : ''; ?>>
 					<?php echo torro()->template()->esc_html( $choice_label ); ?>
 				</option>
 			<?php endforeach; ?>
