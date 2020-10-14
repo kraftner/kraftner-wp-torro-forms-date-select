@@ -38,6 +38,17 @@
     "wimg/php-compatibility": "^8",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4"
   },
+  "archive": {
+    "exclude": [
+      "/tests",
+      "/.*",
+      "/docker*",
+      "/Docker*",
+      "/gulpfile.js",
+      "/package*.json",
+      "/php*.xml"
+    ]
+  },
   "scripts":     {
     "install-codestandards": [
       "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
